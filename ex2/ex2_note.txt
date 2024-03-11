@@ -1,0 +1,7 @@
+1. export pwd to ENV variable
+2. store pwd in tmp file
+3. variable in bash script *
+
+variable scope for bash script
+In bash, all variables by default are defined as global, even the ones defined in function body.
+Use keyword local to define a local variable. Local variables will override global variables in it's function if with the same name.
