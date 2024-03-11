@@ -1,0 +1,7 @@
+[[]] compared with [] 
+1. WordSplitting or glob expansion will be done.
+2.Parentheses do not need to be escaped.
+
+$(()) (()) Arithmetic Expansion
+((a++))
+n=$((RANDON % 100))
