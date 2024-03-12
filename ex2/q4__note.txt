@@ -1,0 +1,5 @@
+commands take arguments or STDIN as input. Arguments are passed to the program as array. STDIN is an input stream.
+man command does not take STDIN as input.
+echo 'ls' | man is the same as man.
+echo 'ls' | xargs man is the same as man ls.
+
